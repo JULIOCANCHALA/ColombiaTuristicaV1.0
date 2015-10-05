@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Malecón del Rio Magdalena"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:id="@+id/nomtu"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/subtu"
+        android:text="(Mirador Monumento el Mohán, restaurantes, artesanías, parque el Caracolí, Monumento La Gaitana, etc.)"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/infotu"
+        android:text="En la zona hay artesanos y empresarios en pequeña escala que comercialización productos que reflejan la riqueza cultural huilense. También dispone de una plazoleta para eventos varios y de un polideportivo."
+        android:gravity="center"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:background="#e5e5e5"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="140dp"
+            android:id="@+id/ftu1"
+            android:layout_weight="1"
+            android:src="@drawable/malecom"
+
+
+
+            />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="140dp"
+            android:id="@+id/ftu2"
+            android:layout_weight="1"
+            android:src="@drawable/mohan"
+
+
+            />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="140dp"
+            android:id="@+id/ftu3"
+            android:layout_weight="1"
+            android:src="@drawable/gaitana"
+
+
+
+            />
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+
+        android:layout_width="fill_parent"
+        android:layout_height="6dp"
+        android:background="@color/gray"
+        android:layout_marginTop="4dp"
+        />
+
+</LinearLayout>

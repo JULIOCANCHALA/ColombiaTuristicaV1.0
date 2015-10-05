@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="220dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Romeo y Julieta Disco Club!"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:id="@+id/nombar"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tipobar"
+        android:text="Club nocturno y Bar"
+        android:layout_gravity="center"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dircbar"
+        android:text="Antiguo San Juan, 479"
+        android:layout_gravity="center"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tjt"
+        android:text="Tarjetas de crédito:Sí"
+        android:layout_gravity="center"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="#e5e5e5"
+
+        >
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="140dp"
+            android:id="@+id/fotobar1"
+            android:layout_weight="1"
+            android:src="@drawable/ryj1"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+
+
+        />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="140dp"
+            android:id="@+id/fotobar2"
+            android:layout_weight="1"
+            android:src="@drawable/ryj2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+        />
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+
+        android:layout_width="fill_parent"
+        android:layout_height="6dp"
+        android:background="@color/gray"
+        android:layout_marginTop="4dp"
+        />
+
+</LinearLayout>

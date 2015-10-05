@@ -1,0 +1,134 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#fcfcfc"
+    >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.canchala.julio.colombiaturisticav10.Turismo"
+    android:orientation="vertical"
+
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="28dp"
+        android:background="#b4ff0000"
+        ></LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="9dp"
+        android:background="#64ff0000"
+        ></LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical"
+        >
+
+
+    <TextView android:text="Conócenos"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#535353" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="6dp"
+            android:background="#64ff0000"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="La ciudad de Neiva es la capital del departamento del Huila.\n\n Está llena de tradiciones y lugares aledaños hermosos para recorrer, además de contar con la hospitalidad que caracteriza a los Opitas; debido a esto, usted podrá disfrutar de unas vacaciones muy placenteras."
+            android:gravity="center"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+
+            />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="140dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:src="@drawable/cit"
+            android:background="#e5e5e5"
+            android:layout_marginTop="8dp"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Neiva es una ciudad en proceso de crecimiento y desarrollo, que ofrece variadas alternativas turísticas con presencia de elementos de tipo cultural e histórico, en un interesante recorrido por las tradiciones y los vestigios del pasado que están vivos en las expresiones cotidianas y en los lugares de la ciudad."
+            android:gravity="center"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/potros"
+            android:layout_marginTop="8dp"
+            android:background="#e5e5e5"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Además existen variadas opciones para disfrutar la vida nocturna en clubes, discotecas, restaurantes y hoteles.\n\nSe identifican los sectores del Malecón, Quirinal y La Toma, donde se disfrutan diferentes ambientes, estilos musicales y ofertas gastronómicas que resultan placenteras para propios y visitantes."
+            android:gravity="center"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/disco"
+            android:layout_marginTop="8dp"
+            android:background="#e5e5e5"
+            />
+
+    </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>
+</ScrollView>

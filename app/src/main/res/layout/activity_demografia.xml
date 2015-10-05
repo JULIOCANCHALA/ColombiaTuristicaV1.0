@@ -1,0 +1,128 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#fcfcfc"
+    >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.canchala.julio.colombiaturisticav10.Demografia"
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="28dp"
+            android:background="#b4ff00ff"
+            ></LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="9dp"
+            android:background="#64ff00ff"
+            ></LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="vertical"
+            >
+
+
+            <TextView android:text="Infórmate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#535353" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="6dp"
+                android:background="#64ff00ff"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                />
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Según cifras del DANE, en el censo del año 2005.\n\nLa ciudad contaba con una población de 315.332 personas, con una densidad de aproximadamente 289.7 habitantes por kilómetro cuadrado, se estima una proyección para el año 2015 de 344.242 habitantes.\n\nDel total, 324.440 personas viven en la cabecera municipal y 19.802 en el área rural.\n\nEl 47,7% corresponden a hombres y el 52,3% a mujeres.\n\nAproximadamente el 70,2% de los hogares de Neiva tiene 4 o menos personas.\n\nEl 8,4% de la población de 5 años y más que reside actualmente en este municipio procede de otro municipio y el 0,1 % de otro país."
+                    android:gravity="center"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp"
+
+                    />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="160dp"
+                    android:layout_weight="1"
+                    android:alpha="1"
+                    android:src="@drawable/demo"
+                    android:background="#e5e5e5"
+                    android:layout_marginTop="8dp"
+                    />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gráfica elaborada por: Wikipedia con base a los datos del DANE y archivos de la Biblioteca del Banco de la República de Colombia"
+                    android:gravity="center"
+                    android:textSize="6dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp"
+
+                    />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Etnografía: Según las cifras del DANE sobre el censo 2005, la composición etnográfica del municipio es:"
+                    android:gravity="center"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp"
+                    />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mestizos y blancos: 98.9%\nIndígenas: 0,3%\nNegro, mulato, afrocolombiano o afrodescendiente: 0,8%"
+                    android:gravity="left"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp"
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

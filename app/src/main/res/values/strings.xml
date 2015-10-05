@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">COTuristica</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_hoteles">Hoteles</string>
+    <string name="title_activity_bares">Bares</string>
+    <string name="title_activity_turismo">Turismo</string>
+    <string name="title_activity_demografia">Demografia</string>
+    <string name="title_activity_acercade">App creada por:</string>
+    <string name="title_activity_lugares_tu">LugaresTu</string>
+</resources>
