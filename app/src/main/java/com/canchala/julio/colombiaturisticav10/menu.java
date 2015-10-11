@@ -5,13 +5,13 @@ package com.canchala.julio.colombiaturisticav10;
  */
 public class menu {
     private int idimagen;
-    private String titulo;
-    private String subtitulo;
+    private int titulo;
+    private int subtitulo;
     private  int idcolor;
 
 
 
-    public menu(int idimagen, String titulo, String subtitulo, int idcolor) {
+    public menu(int idimagen, int titulo, int subtitulo, int idcolor) {
         this.idimagen = idimagen;
         this.titulo = titulo;
         this.subtitulo = subtitulo;
@@ -24,12 +24,12 @@ public class menu {
         return idimagen;
     }
 
-    public String getTitulo() {
+    public int getTitulo() {
 
         return titulo;
     }
 
-    public String getSubtitulo() {
+    public int getSubtitulo() {
         return subtitulo;
     }
 

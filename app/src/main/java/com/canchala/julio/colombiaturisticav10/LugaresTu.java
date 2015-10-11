@@ -16,24 +16,12 @@ import android.widget.TextView;
 public class LugaresTu extends AppCompatActivity {
 
     private turis[] datos=new turis[]{
-            new turis("Malecón del Rio Magdalena","(Mirador Monumento el Mohán, restaurantes, artesanías, parque el Caracolí, Monumento La Gaitana, etc.)",
-                    "En la zona hay artesanos y empresarios en pequeña escala que comercialización productos que reflejan la riqueza cultural huilense. También dispone de una plazoleta para eventos varios y de un polideportivo",
-                    R.drawable.malecom, R.drawable.mohan,R.drawable.gaitana),
-            new turis("Parque los Libertadores","(Monumentos públicos, centro comercial Los Comuneros, Almacen Éxito)",
-                    "Inaugurada en diciembre de 2002, en homenaje a los Libertadores, precisamente en el lugar donde funcionaba la antigua Galería Central o Plaza de mercado del Centro, para dar paso a la modernidad.",
-                    R.drawable.liber1, R.drawable.liber2,R.drawable.liber3),
-            new turis("Parque de los niños","(Especial para llevar los niños a montar en bicicleta y a patinar)",
-                    "El propósito es masificar la actividad recreativa, lúdica y de esparcimiento de la primera infancia, como una salida correcta en prevención de la drogadicción, indigencia, abuso laboral, aportando de forma concreta a que estos menores tengan su propio espacio recreativo, especialmente en los sectores marginados de la ciudad.",
-                    R.drawable.pn1, R.drawable.pn2,R.drawable.pn3),
-            new turis("Paseo Peatonal La Quinta","(Cra. 5 entre la Calle 8 y el Puente rio las Ceibas)",
-                    "Desde el centro de la ciudad pasando por la Alcaldía Municipal, centro comercial Olímpica, La Avenida La Toma hasta el centro de convenciones “José Eustacio Rivera” donde podrán disfrutar sin costo alguno de exposiciones de arte en el Museo de Arte Contemporáneo del Huila",
-                    R.drawable.paspe1, R.drawable.paspe2,R.drawable.paspe3),
-            new turis("Templo Colonial","(Antigua edificación religiosa ubicada en pleno parque Santander)",
-                    "Este monumento data del siglo XVII.  Durante muchos años prestó el servicio de Catedral de Neiva. Ha sufrido el furor de varios terremotos; ha sido restaurado varias veces, pero hasta el presente, conserva sus pisos de ladrillo asado, gradas de monolitos, paredes de tapia pisada y techo de madera rolliza.",
-                    R.drawable.tcolo1, R.drawable.tcolo2,R.drawable.tcolo3),
-            new turis("El Caballo Colombiano","Este bello monumento se encuentra en el costado sur del Estadio de Fútbol Guillermo Plazas Alcid muy cerca al Hospital general, donde empieza la avenida “La Toma",
-                    "Está constituida por  tres figuras cilíndricas con cabezas en formas de caballos, luciendo los colores de la bandera de la patria. La estructura está elaborada en hierro,  las cabezas en plástico, con poliéster reforzado en fibra de vidrio; sobre la escultura se le aplicó  pintura sintética para exteriores, tiene una  altura de ocho metros.",
-                    R.drawable.cab1,R.drawable.cab2,R.drawable.cab3)
+            new turis(R.string.namet1,R.string.subnamet1,R.string.inft1,R.drawable.malecom, R.drawable.mohan,R.drawable.gaitana),
+            new turis(R.string.namet2,R.string.subnamet2,R.string.inft2,R.drawable.liber1, R.drawable.liber2,R.drawable.liber3),
+            new turis(R.string.namet3,R.string.subnamet3,R.string.inft3,R.drawable.pn1, R.drawable.pn2,R.drawable.pn3),
+            new turis(R.string.namet4,R.string.subnamet4,R.string.inft4,R.drawable.paspe1, R.drawable.paspe2,R.drawable.paspe3),
+            new turis(R.string.namet5,R.string.subnamet5,R.string.inft5,R.drawable.tcolo1, R.drawable.tcolo2,R.drawable.tcolo3),
+            new turis(R.string.namet6,R.string.subnamet6,R.string.inft6,R.drawable.cab1,R.drawable.cab2,R.drawable.cab3)
 
     };
 

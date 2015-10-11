@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">COTuristica</string>
+    <string formatted="false" name="info1cono">Neiva is the capital of Huila\n\nIt is full of traditions and beautiful to tour surrounding areas, in addition to the hospitality that characterizes the Opitas. Because of this, you can enjoy a very pleasant holiday.</string>
+    <string name="action_settings">Settings</string>
+    <string formatted="false" name="info1demo">According to figures from DANE, in the census of 2005.\n\nThe city had a population of 315,332 people, with a density of about 289.7 people per square kilometer, a projection for 2015 estimated population of 344,242. \ n\nOf the total, 324,440 people live in the municipal head and 19,802 in rural areas.\n\nThe 47.7% were men and 52.3% women.\n\ nApproximately 70.2% of households in Neiva has 4 or fewer people. \n\n The 8.4% of the population aged 5 and older currently residing in this county from another municipality and 0.1% in another country.</string>
+    <string formatted="false" name="info2cono">Neiva is a city in the process of growth and development, offering varied tourist alternatives presence of elements of cultural and historical type, in an interesting journey through the traditions and remnants of the past that are alive in everyday expressions and locations the city.</string>
+    <string formatted="false" name="info2demo">Made chart: Wikipedia based on DANE data and files from the Library of Bank of the Republic of Colombia</string>
+    <string formatted="false" name="info3cono">There are also several options to enjoy the nightlife in clubs, discos, restaurants and hotels.\n\nSectors Malecon, and La Toma Quirinal where different environments, musical styles and culinary offerings that are pleasing to enjoy themselves are identified and visitors.</string>
+    <string formatted="false" name="info3demo">Ethnography: According to figures from DANE on the 2005 census, the Ethnographic composition of the municipality is:</string>
+    <string formatted="false" name="info4demo">Mestizos and whites: 98.9% \nNative 0.3% \nblack, mulatto, Afro-Colombian or of African descent 0.8%</string>
+    <string name="materia">Programming Mobile Devices</string>
+    <string name="title_activity_acercade">App created by:</string>
+    <string name="title_activity_bares">Bars</string>
+    <string name="title_activity_demografia">Demography</string>
+    <string name="title_activity_hoteles">Hotels</string>
+    <string name="title_activity_lugares_tu">Tourist places</string>
+    <string name="title_activity_turismo">Your destiny</string>
+    <string name="titleconócenos">Know us</string>
+    <string name="titleexplora">Explore</string>
+    <string name="titleinfórmate">Learn</string>
+    <string name="titlequédate">Stay</string>
+    <string name="titlerumbea">Enjoy</string>
+    <string name="universidad">University of Antioquia</string>
+    <string name="barypar">Bar and restaurant</string>
+    <string name="clubn">Nightclub</string>
+    <string name="clubnybar">Nightclub and Bar</string>
+    <string name="tc">Credit cards: Yes</string>
+    <string name="direc">Address: </string>
+    <string name="dirb4" translatable="false"></string>
+    <string name="rp">Price range: </string>
+    <string name="subnamet1">(Monument Mohan, restaurants, crafts, park the Caracolí, La Gaitana Monument, etc.)</string>
+    <string name="subnamet2">(Public monuments, shopping center Los Comuneros, Storage Exitó)</string>
+    <string name="subnamet3">(Special to take the children to ride a bike or skate)</string>
+    <string name="subnamet4" translatable="false"></string>
+    <string name="subnamet5">(Antigua religious building located in the Santander Park)</string>
+    <string name="subnamet6">(This beautiful monument is located on the south side of Football Stadium Guillermo Plazas Alcid close to General Hospital, where the avenue "La Toma" begins)</string>
+    <string name="inft1">The area artisans and small-scale entrepreneurs in marketing products that reflect the cultural richness Huila. It also has a small square for various events and sports center</string>
+    <string name="inft2">Inaugurated in December 2002, in homage to the Libertadores, precisely in the place where the old Central Gallery worked or Market Square Center, giving way to modernity.</string>
+    <string name="inft3">The purpose is to expand the recreational, fun and leisure activity in early childhood, as a correct output in preventing drug addiction, homelessness, labor abuse, contributing concretely to which these children have their own recreational space, especially in the sectors city marginalized. "</string>
+    <string name="inft4">From the city center via the City Hall, Olympic mall, Avenida La Toma to the convention center "Jose Rivera Eustatius" where they can enjoy toll free art exhibition at the Museum of Contemporary Art of Huila "</string>
+    <string name="inft5">This monument dates from the seventeenth century. For many years he provided the service Neiva Cathedral. It has suffered the wrath of several earthquakes; It has been restored several times, but so far, retains its brick floors roast, tiers of monoliths, rammed earth walls and ceiling of roundwood.</string>
+    <string name="inft6">It consists of three cylindrical shapes figures with heads of horses, wearing the colors of the flag of the country. The structure is made of iron, plastic heads, polyester reinforced with fiberglass; on the sculpture he was applied synthetic exterior paint, has a height of eight meters.</string>
+</resources>

@@ -21,12 +21,14 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    String[] menus = new String[] { "R.string.titleconócenos" };
+
     private menu[] datos= new menu[]{
-                    new menu(R.drawable.destino,"Conócenos","Tu Destino", Color.argb(180,255,0,0)),
-                    new menu(R.drawable.hoteles,"Quédate","Hoteles",Color.argb(180,255,255,0)),
-                    new menu(R.drawable.bares,"Rumbea","Bares",Color.argb(180,0,0,255)),
-                    new menu(R.drawable.turismo,"Explora","Lugares turísticos",Color.argb(180,0,255,0)),
-                    new menu(R.drawable.conoce,"Infórmate","Demografía",Color.argb(180,255,0,255)),
+                    new menu(R.drawable.destino,R.string.titleconócenos,R.string.title_activity_turismo, Color.argb(180,255,0,0)),
+                    new menu(R.drawable.hoteles,R.string.titlequédate,R.string.title_activity_hoteles,Color.argb(180,255,255,0)),
+                    new menu(R.drawable.bares,R.string.titlerumbea,R.string.title_activity_bares,Color.argb(180,0,0,255)),
+                    new menu(R.drawable.turismo,R.string.titleexplora,R.string.title_activity_lugares_tu,Color.argb(180,0,255,0)),
+                    new menu(R.drawable.conoce,R.string.titleinfórmate,R.string.title_activity_demografia,Color.argb(180,255,0,255)),
             };
 
     private ListView lista;
@@ -47,25 +49,28 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                String opse=((menu)parent.getItemAtPosition(position)).getTitulo();
+                int opse=((menu)parent.getItemAtPosition(position)).getTitulo();
                 Toast.makeText(MainActivity.this, opse, Toast.LENGTH_SHORT).show();
 
 
                 Intent intent = null;
 
-                if(opse.equals("Conócenos")) {
+                if(opse==R.string.titleconócenos)
+                {
                     intent = new Intent(getBaseContext(), Turismo.class);
                 }
-                if(opse.equals("Quédate")) {
+                if(opse==R.string.titlequédate)
+                {
                     intent = new Intent(getBaseContext(), Hoteles.class);
                 }
-                if(opse.equals("Rumbea")) {
+                if(opse==R.string.titlerumbea)
+                {
                     intent = new Intent(getBaseContext(), Bares.class);
                 }
-                if(opse.equals("Explora")) {
+                if(opse==R.string.titleexplora) {
                     intent = new Intent(getBaseContext(), LugaresTu.class);
                 }
-                if(opse.equals("Infórmate")) {
+                if(opse==R.string.titleinfórmate) {
                     intent = new Intent(getBaseContext(), Demografia.class);
                 }
                 if(intent != null)
@@ -74,18 +79,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-
-
-
-    public void onItemClick(AdapterView<?> parent, View view,int position,long id)
-    {
-        String opcionselect=((menu)parent.getItemAtPosition(position)).getTitulo();
-        Toast.makeText(MainActivity.this,opcionselect,Toast.LENGTH_SHORT).show();
-
-
-
-    }
-
 
 
     @Override

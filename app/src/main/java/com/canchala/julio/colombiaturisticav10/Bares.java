@@ -16,10 +16,10 @@ import android.widget.TextView;
 public class Bares extends AppCompatActivity {
 
     private bar[] datos=new bar[]{
-            new bar("Romeo y Julieta Disco","Club nocturno y Bar","Antiguo San Juan, 479","Tarjetas de crédito:Sí",R.drawable.ryj1,R.drawable.ryj2),
-            new bar("Olé","Club nocturno y Bar"," Carrera 5 #3-48 sur","Tarjetas de crédito:Sí",R.drawable.ole1,R.drawable.ole2),
-            new bar("La Martina","Bar y parrilla","Carrera 15 #6 - 02","Tarjetas de crédito:Sí",R.drawable.m1,R.drawable.m2),
-            new bar("Manhattan","Club nocturno","Carrear 2 #12-74","Tarjetas de crédito:Sí",R.drawable.man1,R.drawable.man2),
+            new bar(R.string.nameb1,R.string.clubnybar,R.string.dirb1,R.string.tc,R.drawable.ryj1,R.drawable.ryj2),
+            new bar(R.string.nameb2,R.string.clubnybar,R.string.dirb2,R.string.tc,R.drawable.ole1,R.drawable.ole2),
+            new bar(R.string.nameb3,R.string.barypar,R.string.dirb3,R.string.tc,R.drawable.m1,R.drawable.m2),
+            new bar(R.string.nameb4,R.string.clubn,R.string.dirb4,R.string.tc,R.drawable.man1,R.drawable.man2),
 
     };
 

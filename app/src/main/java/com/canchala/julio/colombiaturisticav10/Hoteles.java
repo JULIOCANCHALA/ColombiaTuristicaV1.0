@@ -18,10 +18,10 @@ import android.widget.TextView;
 public class Hoteles extends AppCompatActivity {
 
     private hotels[] datos=new hotels[]{
-            new hotels("GHL Hotel Neiva","★★★★★","Dirección: Carrera 16 No 42-195","Rango de precios: $194.256 - $523.452",R.drawable.ghl),
-            new hotels("Hotel Neiva Plaza","★★★★","Dirección: Calle 7 No. 4-62","Rango de precios: $175.385 - $227.692",R.drawable.neivaplaza),
-            new hotels("Hotel Americano Neiva","★★★","Dirección: Carrera 5 No 8-67","Rango de precios: $104.615 - $150.769",R.drawable.amer),
-            new hotels("Hotel Metropolitano","★★★","Dirección: Calle 7 No 5-45","Rango de precios: $95.385 - $147.692",R.drawable.metro)
+            new hotels(R.string.nameh1,"★★★★★",R.string.dirh1,R.string.rph1,R.drawable.ghl),
+            new hotels(R.string.nameh2,"★★★★",R.string.dirh2,R.string.rph2,R.drawable.neivaplaza),
+            new hotels(R.string.nameh3,"★★★",R.string.dirh3,R.string.rph3,R.drawable.amer),
+            new hotels(R.string.nameh4,"★★★",R.string.dirh4,R.string.rph4,R.drawable.metro)
 
     };
 

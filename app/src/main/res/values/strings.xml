@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">COTuristica</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Ajustes</string>
     <string name="title_activity_hoteles">Hoteles</string>
     <string name="title_activity_bares">Bares</string>
     <string name="title_activity_turismo">Tu Destino</string>
@@ -9,7 +9,7 @@
     <string name="title_activity_lugares_tu">Lugares Turisticos</string>
     <string name="materia">Programación dispositivos Móviles</string>
     <string name="universidad">Universidad de Antioquia</string>
-    <string name="minombre">Julio Fernando Canchala</string>
+    <string name="minombre" translatable="false">Julio Fernando Canchala</string>
     <string name="titlerumbea">Rumbea</string>
     <string name="titleinfórmate">Infórmate</string>
     <string name="titlequédate">Quédate</string>
@@ -22,6 +22,50 @@
     <string formatted="false" name="info1cono">La ciudad de Neiva es la capital del departamento del Huila.\n\n Está llena de tradiciones y lugares aledaños hermosos para recorrer, además de contar con la hospitalidad que caracteriza a los Opitas; debido a esto, usted podrá disfrutar de unas vacaciones muy placenteras.</string>
     <string formatted="false" name="info2cono">Neiva es una ciudad en proceso de crecimiento y desarrollo, que ofrece variadas alternativas turísticas con presencia de elementos de tipo cultural e histórico, en un interesante recorrido por las tradiciones y los vestigios del pasado que están vivos en las expresiones cotidianas y en los lugares de la ciudad.</string>
     <string formatted="false" name="info3cono">Además existen variadas opciones para disfrutar la vida nocturna en clubes, discotecas, restaurantes y hoteles.\n\nSe identifican los sectores del Malecón, Quirinal y La Toma, donde se disfrutan diferentes ambientes, estilos musicales y ofertas gastronómicas que resultan placenteras para propios y visitantes.</string>
+    <string formatted="false" name="clubnybar">Club nocturno y Bar</string>
+    <string formatted="false" name="clubn">Club nocturno</string>
+    <string formatted="false" name="barypar">Bar y Parrila</string>
+    <string formatted="false" name="nameb1" translatable="false">Romeo y Julieta Disco</string>
+    <string formatted="false" name="nameb2" translatable="false">Olé</string>
+    <string formatted="false" name="nameb3" translatable="false">La Martina</string>
+    <string formatted="false" name="nameb4" translatable="false">Manhattan</string>
+    <string formatted="false" name="dirb1" translatable="false">Antiguo San Juan, 479</string>
+    <string formatted="false" name="dirb2" translatable="false">Carrera 5 #3-48 sur</string>
+    <string formatted="false" name="dirb3" translatable="false">Carrera 15 #6 - 02</string>
+    <string formatted="false" name="dirb4" translatable="false">Carrera 2 #12-74</string>
+    <string formatted="false" name="tc">Tarjetas de crédito:Sí</string>
+    <string formatted="false" name="nameh1" translatable="false">GHL Hotel Neiva</string>
+    <string formatted="false" name="nameh2" translatable="false">Hotel Neiva Plaza</string>
+    <string formatted="false" name="nameh3" translatable="false">Hotel Americano Neiva</string>
+    <string formatted="false" name="nameh4" translatable="false">Hotel Metropolitano</string>
+    <string formatted="false" name="dirh1" translatable="false">Carrera 16 No 42-195</string>
+    <string formatted="false" name="dirh2" translatable="false">Calle 7 No. 4-62</string>
+    <string formatted="false" name="dirh3" translatable="false">Carrera 5 No 8-67</string>
+    <string formatted="false" name="dirh4" translatable="false">Calle 7 No 5-45</string>
+    <string formatted="false" name="rph1" translatable="false">$194.256 - $523.452</string>
+    <string formatted="false" name="rph2" translatable="false">$175.385 - $227.692</string>
+    <string formatted="false" name="rph3" translatable="false">$104.615 - $150.769</string>
+    <string formatted="false" name="rph4" translatable="false">$95.385 - $147.692</string>
+    <string formatted="false" name="direc">Dirección: </string>
+    <string formatted="false" name="rp">Rango de precios: </string>
+    <string formatted="false" name="namet1" translatable="false">Malecón del Rio Magdalena</string>
+    <string formatted="false" name="namet2" translatable="false">Parque los Libertadores</string>
+    <string formatted="false" name="namet3" translatable="false">Parque de los niños</string>
+    <string formatted="false" name="namet4" translatable="false">Paseo Peatonal La Quinta</string>
+    <string formatted="false" name="namet5" translatable="false">Templo Colonial</string>
+    <string formatted="false" name="namet6" translatable="false">El Caballo Colombiano</string>
+    <string formatted="false" name="subnamet1">(Mirador Monumento el Mohán, restaurantes, artesanías, parque el Caracolí, Monumento La Gaitana, etc.)</string>
+    <string formatted="false" name="subnamet2">(Monumentos públicos, centro comercial Los Comuneros, Almacen Éxito)</string>
+    <string formatted="false" name="subnamet3">(Especial para llevar los niños a montar en bicicleta o patinar)</string>
+    <string formatted="false" name="subnamet4" translatable="false">(Cra. 5 entre la Calle 8 y el Puente rio las Ceibas)</string>
+    <string formatted="false" name="subnamet5">(Antigua edificación religiosa ubicada en pleno parque Santander)</string>
+    <string formatted="false" name="subnamet6">(Este bello monumento se encuentra en el costado sur del Estadio de Fútbol Guillermo Plazas Alcid muy cerca al Hospital general, donde empieza la avenida “La Toma")</string>
+    <string formatted="false" name="inft1">En la zona hay artesanos y empresarios en pequeña escala que comercialización productos que reflejan la riqueza cultural huilense. También dispone de una plazoleta para eventos varios y de un polideportivo</string>
+    <string formatted="false" name="inft2">Inaugurada en diciembre de 2002, en homenaje a los Libertadores, precisamente en el lugar donde funcionaba la antigua Galería Central o Plaza de mercado del Centro, para dar paso a la modernidad.</string>
+    <string formatted="false" name="inft3">El propósito es masificar la actividad recreativa, lúdica y de esparcimiento de la primera infancia, como una salida correcta en prevención de la drogadicción, indigencia, abuso laboral, aportando de forma concreta a que estos menores tengan su propio espacio recreativo, especialmente en los sectores marginados de la ciudad."</string>
+    <string formatted="false" name="inft4">Desde el centro de la ciudad pasando por la Alcaldía Municipal, centro comercial Olímpica, La Avenida La Toma hasta el centro de convenciones “José Eustacio Rivera” donde podrán disfrutar sin costo alguno de exposiciones de arte en el Museo de Arte Contemporáneo del Huila"</string>
+    <string formatted="false" name="inft5">Este monumento data del siglo XVII.  Durante muchos años prestó el servicio de Catedral de Neiva. Ha sufrido el furor de varios terremotos; ha sido restaurado varias veces, pero hasta el presente, conserva sus pisos de ladrillo asado, gradas de monolitos, paredes de tapia pisada y techo de madera rolliza.</string>
+    <string formatted="false" name="inft6">Está constituida por  tres figuras cilíndricas con cabezas en formas de caballos, luciendo los colores de la bandera de la patria. La estructura está elaborada en hierro,  las cabezas en plástico, con poliéster reforzado en fibra de vidrio; sobre la escultura se le aplicó  pintura sintética para exteriores, tiene una  altura de ocho metros.</string>
 
 
 

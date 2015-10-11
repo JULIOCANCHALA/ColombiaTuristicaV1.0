@@ -4,14 +4,14 @@ package com.canchala.julio.colombiaturisticav10;
  * Created by Julio on 05/10/2015.
  */
 public class turis {
-    private String lugar;
-    private String Subname;
-    private String infturis;
+    private int lugar;
+    private int Subname;
+    private int infturis;
     private int idtu1;
     private int idtu2;
     private int idtu3;
 
-    public turis(String lugar, String subname, String infturis, int idtu1, int idtu2, int idtu3) {
+    public turis(int lugar, int subname, int infturis, int idtu1, int idtu2, int idtu3) {
         this.lugar = lugar;
         Subname = subname;
         this.infturis = infturis;
@@ -20,15 +20,15 @@ public class turis {
         this.idtu3 = idtu3;
     }
 
-    public String getLugar() {
+    public int getLugar() {
         return lugar;
     }
 
-    public String getSubname() {
+    public int getSubname() {
         return Subname;
     }
 
-    public String getInfturis() {
+    public int getInfturis() {
         return infturis;
     }
 

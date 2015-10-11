@@ -4,14 +4,14 @@ package com.canchala.julio.colombiaturisticav10;
  * Created by Julio on 05/10/2015.
  */
 public class bar {
-    private String nbar;
-    private String tbar;
-    private String dirc;
-    private String tj;
+    private int nbar;
+    private int tbar;
+    private int dirc;
+    private int tj;
     private int idfotobar1;
     private int idfotobar2;
 
-    public bar(String nbar, String tbar, String dirc, String tj, int idfotobar1, int idfotobar2) {
+    public bar(int nbar, int tbar, int dirc, int tj, int idfotobar1, int idfotobar2) {
         this.nbar = nbar;
         this.tbar = tbar;
         this.dirc = dirc;
@@ -20,19 +20,19 @@ public class bar {
         this.idfotobar2 = idfotobar2;
     }
 
-    public String getNbar() {
+    public int getNbar() {
         return nbar;
     }
 
-    public String getTbar() {
+    public int getTbar() {
         return tbar;
     }
 
-    public String getDirc() {
+    public int getDirc() {
         return dirc;
     }
 
-    public String getTj() {
+    public int getTj() {
         return tj;
     }
 

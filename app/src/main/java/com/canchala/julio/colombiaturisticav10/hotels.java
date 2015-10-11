@@ -4,13 +4,13 @@ package com.canchala.julio.colombiaturisticav10;
  * Created by Julio on 05/10/2015.
  */
 public class hotels {
-    private String nombrehotel;
+    private int nombrehotel;
     private String estrellas;
-    private String direcc;
-    private String rango;
+    private int direcc;
+    private int rango;
     private int idfoto;
 
-    public hotels(String nombrehotel, String estrellas, String direcc, String rango, int idfoto) {
+    public hotels(int nombrehotel, String estrellas, int direcc, int rango, int idfoto) {
         this.nombrehotel = nombrehotel;
         this.estrellas = estrellas;
         this.direcc = direcc;
@@ -18,7 +18,7 @@ public class hotels {
         this.idfoto = idfoto;
     }
 
-    public String getNombrehotel() {
+    public int getNombrehotel() {
         return nombrehotel;
     }
 
@@ -26,11 +26,11 @@ public class hotels {
         return estrellas;
     }
 
-    public String getDirecc() {
+    public int getDirecc() {
         return direcc;
     }
 
-    public String getRango() {
+    public int getRango() {
         return rango;
     }
 
