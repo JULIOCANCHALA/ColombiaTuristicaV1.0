@@ -1,12 +1,28 @@
 <resources>
     <string name="app_name">COTuristica</string>
-
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_hoteles">Hoteles</string>
     <string name="title_activity_bares">Bares</string>
-    <string name="title_activity_turismo">Turismo</string>
-    <string name="title_activity_demografia">Demografia</string>
+    <string name="title_activity_turismo">Tu Destino</string>
+    <string name="title_activity_demografia">Demografía</string>
     <string name="title_activity_acercade">App creada por:</string>
-    <string name="title_activity_lugares_tu">LugaresTu</string>
+    <string name="title_activity_lugares_tu">Lugares Turisticos</string>
+    <string name="materia">Programación dispositivos Móviles</string>
+    <string name="universidad">Universidad de Antioquia</string>
+    <string name="minombre">Julio Fernando Canchala</string>
+    <string name="titlerumbea">Rumbea</string>
+    <string name="titleinfórmate">Infórmate</string>
+    <string name="titlequédate">Quédate</string>
+    <string name="titleexplora">Explora</string>
+    <string name="titleconócenos">Conócenos</string>
+    <string formatted="false" name="info1demo">Según cifras del DANE, en el censo del año 2005.\n\nLa ciudad contaba con una población de 315.332 personas, con una densidad de aproximadamente 289.7 habitantes por kilómetro cuadrado, se estima una proyección para el año 2015 de 344.242 habitantes.\n\nDel total, 324.440 personas viven en la cabecera municipal y 19.802 en el área rural.\n\nEl 47,7% corresponden a hombres y el 52,3% a mujeres.\n\nAproximadamente el 70,2% de los hogares de Neiva tiene 4 o menos personas.\n\nEl 8,4% de la población de 5 años y más que reside actualmente en este municipio procede de otro municipio y el 0,1 % de otro país.</string>
+    <string formatted="false" name="info2demo">Gráfica elaborada por: Wikipedia con base a los datos del DANE y archivos de la Biblioteca del Banco de la República de Colombia</string>
+    <string formatted="false" name="info3demo">Etnografía: Según las cifras del DANE sobre el censo 2005, la composición etnográfica del municipio es:</string>
+    <string formatted="false" name="info4demo">Mestizos y blancos: 98.9%\nIndígenas: 0,3%\nNegro, mulato, afrocolombiano o afrodescendiente: 0,8%</string>
+    <string formatted="false" name="info1cono">La ciudad de Neiva es la capital del departamento del Huila.\n\n Está llena de tradiciones y lugares aledaños hermosos para recorrer, además de contar con la hospitalidad que caracteriza a los Opitas; debido a esto, usted podrá disfrutar de unas vacaciones muy placenteras.</string>
+    <string formatted="false" name="info2cono">Neiva es una ciudad en proceso de crecimiento y desarrollo, que ofrece variadas alternativas turísticas con presencia de elementos de tipo cultural e histórico, en un interesante recorrido por las tradiciones y los vestigios del pasado que están vivos en las expresiones cotidianas y en los lugares de la ciudad.</string>
+    <string formatted="false" name="info3cono">Además existen variadas opciones para disfrutar la vida nocturna en clubes, discotecas, restaurantes y hoteles.\n\nSe identifican los sectores del Malecón, Quirinal y La Toma, donde se disfrutan diferentes ambientes, estilos musicales y ofertas gastronómicas que resultan placenteras para propios y visitantes.</string>
+
+
+
 </resources>

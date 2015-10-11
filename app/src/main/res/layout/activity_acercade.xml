@@ -12,18 +12,18 @@
     android:gravity="center"
     >
 
-    <TextView android:text="Julio Fernando Canchala"
+    <TextView android:text="@string/minombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:textStyle="bold"
         />
-    <TextView android:text="Programación dispositivos Móviles"
+    <TextView android:text="@string/materia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="14dp"
         />
-    <TextView android:text="Universidad de Antioquia"
+    <TextView android:text="@string/universidad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="16dp"

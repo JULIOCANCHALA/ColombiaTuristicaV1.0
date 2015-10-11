@@ -2,7 +2,7 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="300dp"
+    android:layout_height="260dp"
     android:orientation="vertical"
 
     >
@@ -81,10 +81,7 @@
             android:id="@+id/ftu3"
             android:layout_weight="1"
             android:src="@drawable/gaitana"
-
-
-
-            />
+           />
 
 
     </LinearLayout>

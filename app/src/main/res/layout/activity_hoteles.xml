@@ -9,16 +9,16 @@
 
         >
 
-        <LinearLayout
+        <TextView
             android:layout_width="fill_parent"
             android:layout_height="28dp"
             android:background="#b4ffff00"
-            ></LinearLayout>
-        <LinearLayout
+            />
+        <TextView
             android:layout_width="fill_parent"
             android:layout_height="9dp"
             android:background="#64ffff00"
-            ></LinearLayout>
+            />
 
         <LinearLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
@@ -33,7 +33,7 @@
             >
 
 
-            <TextView android:text="Quédate"
+            <TextView android:text="@string/titlequédate"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:textSize="40dp"
